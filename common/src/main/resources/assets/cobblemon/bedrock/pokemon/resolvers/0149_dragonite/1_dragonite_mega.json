@@ -4,25 +4,20 @@
   "variations": [
     {
       "aspects": ["mega"],
+      "poser": "cobblemon:dragonite",
       "model": "cobblemon:dragonite_mega.geo",
-      "poser": "cobblemon:dragonite_mega",
       "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega.png",
-      "layers": [
-        {
-          "name": "translucent",
-          "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega_translucent.png",
-          "tranlsucent": true
-        }
-      ]
+      "layers": []
     },
     {
       "aspects": ["mega", "shiny"],
-      "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega_shiny.png",
+      "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega_shiny.png"
+    },
+    {
+      "aspects": ["cosmetic_item-bundle", "mega"],
       "layers": [
         {
-          "name": "translucent",
-          "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mega_translucent_shiny.png",
-          "tranlsucent": true
+          "texture": "cobblemon:textures/pokemon/0149_dragonite/dragonite_mailbag.png"
         }
       ]
     }
